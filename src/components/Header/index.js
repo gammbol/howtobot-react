@@ -1,5 +1,5 @@
 import React from 'react';
-import Logopng from '../../images/Logo.png'
+import Reu from '../../images/reu.png'
 import {HeaderContainer, HeaderWrapper, Logo, LogoContainer, NavItem, NavLinks, NavMenu} from "./HeaderElements";
 
 function Header(props) {
@@ -7,20 +7,20 @@ function Header(props) {
 			<HeaderContainer>
 				<HeaderWrapper>
 					<LogoContainer>
-						<Logo src={Logopng}/>
+						<Logo src={Reu}/>
 					</LogoContainer>
 					<NavMenu>
 						<NavItem>
-							<NavLinks to="#">About</NavLinks>
+							<NavLinks to="#">О нас</NavLinks>
 						</NavItem>
 						<NavItem>
-							<NavLinks to="#">Our project</NavLinks>
+							<NavLinks to="#">О проекте</NavLinks>
 						</NavItem>
 						<NavItem>
-							<NavLinks to="#">Lessons</NavLinks>
+							<NavLinks to="#">Уроки</NavLinks>
 						</NavItem>
 						<NavItem>
-							<NavLinks to="#">Contacts</NavLinks>
+							<NavLinks to="#">Контакты</NavLinks>
 						</NavItem>
 					</NavMenu>
 				</HeaderWrapper>

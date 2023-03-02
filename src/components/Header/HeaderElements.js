@@ -3,6 +3,7 @@ import {Link as LinkS} from 'react-scroll';
 
 export const HeaderContainer = styled.header`
   position: relative;
+  background: #000;
 `
 
 export const HeaderWrapper = styled.div`
@@ -11,7 +12,6 @@ export const HeaderWrapper = styled.div`
   align-items: center;
   max-width: 1100px;
   margin: 0 auto;
-  border-bottom: 2px solid rgba(50, 50, 50, 0.1);
 `
 
 export const LogoContainer = styled.div`
@@ -38,14 +38,27 @@ export const NavMenu = styled.nav`
 `
 
 export const NavItem = styled.div`
+  flex-basis: 7rem;
+  padding: 10px 0;
   height: 100%;
+  color: #fff;
+  border-radius: 50px;
+  transition: .3s ease-in-out;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  
+  &:hover {
+    background: #01bf71;
+    color: #000;
+  }
 `
 
 export const NavLinks = styled(LinkS)`
   display: flex;
   align-items: center;
   text-decoration: none;
-  padding: 0 1rem;
   height: 100%;
   cursor: pointer;
 `

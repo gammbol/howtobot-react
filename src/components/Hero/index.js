@@ -1,5 +1,5 @@
 import React from 'react';
-import Video from '../../videos/pexels-cottonbro-5473968.mp4'
+import Video from '../../videos/video.mp4'
 import {HeroContainer, HeroBg, VideoBg, HeroContentContainer, ContentWrapper, HeroHeading, HeroP} from "./HeroElements";
 
 const Hero = () => {
