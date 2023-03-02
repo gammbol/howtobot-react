@@ -2,7 +2,7 @@ import styled from "styled-components";
 import {Link as LinkS} from 'react-scroll';
 
 export const HeaderContainer = styled.header`
-  position: sticky;
+  position: relative;
 `
 
 export const HeaderWrapper = styled.div`
