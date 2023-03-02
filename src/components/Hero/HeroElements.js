@@ -59,9 +59,11 @@ export const ContentWrapper = styled.div`
 export const HeroHeading = styled.h1`
   color: #fff;
   font-size: 64px;
+  text-align: center;
 `
 
 export const HeroP = styled.p`
   color: #fff;
   font-size: 24px;
+  text-align: center;
 `

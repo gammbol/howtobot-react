@@ -38,6 +38,7 @@ export const NavMenu = styled.nav`
 `
 
 export const NavItem = styled.div`
+  box-sizing: content-box;
   flex-basis: 7rem;
   padding: 10px 0;
   height: 100%;
