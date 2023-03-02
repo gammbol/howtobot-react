@@ -1,11 +1,11 @@
- import styled from "styled-components";
+import styled from "styled-components";
 
 export const HeroContainer = styled.div`
   background: #0c0c0c;
   z-index: 1;
   position: relative;
   height: 900px;
-  
+
   :before {
     content: '';
     position: absolute;
@@ -13,12 +13,10 @@ export const HeroContainer = styled.div`
     left: 0;
     right: 0;
     bottom: 0;
-    background: linear-gradient(
-      180deg,
-      rgba(0, 0, 0, 0.2) 0%,
-      rgba(0, 0, 0, 0.6) 100%
-      ),
-      linear-gradient(180deg, rgba(0, 0, 0, 0.2) 0%, transparent 100%);
+    background: linear-gradient(180deg,
+    rgba(0, 0, 0, 0.2) 0%,
+    rgba(0, 0, 0, 0.6) 100%),
+    linear-gradient(180deg, rgba(0, 0, 0, 0.2) 0%, transparent 100%);
     z-index: 2;
   }
 `
@@ -38,4 +36,31 @@ export const VideoBg = styled.video`
   height: 100%;
   -o-object-fit: cover;
   object-fit: cover;
+`
+
+export const HeroContentContainer = styled.div`
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+`
+
+export const ContentWrapper = styled.div`
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  z-index: 3;
+`
+
+export const HeroHeading = styled.h1`
+  color: #fff;
+  font-size: 48px;
+`
+
+export const HeroP = styled.p`
+  color: #fff;
 `
