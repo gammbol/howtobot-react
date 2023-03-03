@@ -8,7 +8,7 @@ const Hero = () => {
 	return (
 		<HeroContainer>
 			<HeroBg>
-				<VideoBg autoPlay loop muted src={Video} type="video/mp4"/>
+				<VideoBg autoPlay loop muted preload src={Video} type="video/mp4"/>
 			</HeroBg>
 			<HeroContentContainer>
 				<ContentWrapper>
