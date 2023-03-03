@@ -3,3 +3,11 @@
     margin: 0;
     font-family: "Roboto", sans-serif;
 }
+
+.animatedText {
+    color: #fff;
+}
+
+.typewriter * {
+    font-size: 64px;
+}

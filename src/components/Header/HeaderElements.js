@@ -48,8 +48,8 @@ export const NavItem = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
-  
-  
+
+
   &:hover {
     background: #01bf71;
     color: #000;
@@ -62,4 +62,5 @@ export const NavLinks = styled(LinkS)`
   text-decoration: none;
   height: 100%;
   cursor: pointer;
+  font-size: 18px;
 `

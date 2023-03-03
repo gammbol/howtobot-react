@@ -48,6 +48,7 @@ export const HeroContentContainer = styled.div`
 
 export const ContentWrapper = styled.div`
   height: 100%;
+  color: #fff;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -57,7 +58,6 @@ export const ContentWrapper = styled.div`
 `
 
 export const HeroHeading = styled.h1`
-  color: #fff;
   font-size: 64px;
   text-align: center;
 `
