@@ -55,11 +55,16 @@ export const ContentWrapper = styled.div`
   align-items: center;
   gap: 1rem;
   z-index: 3;
+  margin: 0 20px;
 `
 
 export const HeroHeading = styled.h1`
   font-size: 64px;
   text-align: center;
+
+  @media screen and (max-width: 768px) {
+    font-size: 48px;
+  }
 `
 
 export const HeroP = styled.p`

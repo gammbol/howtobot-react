@@ -29,7 +29,7 @@ const Hero = () => {
 							}}
 						/>
 					</HeroHeading>
-					<HeroP>Ресурс с большим количеством информации </HeroP>
+					<HeroP>Ваш верный наставник на пути создания телеграм ботов</HeroP>
 				</ContentWrapper>
 			</HeroContentContainer>
 		</HeroContainer>

@@ -19,6 +19,7 @@ export const LogoContainer = styled.div`
   height: 6rem;
   flex-shrink: 0;
   margin-left: 24px;
+  display: flex;
 `
 
 export const Logo = styled.img`
@@ -35,6 +36,10 @@ export const NavMenu = styled.nav`
   width: 100%;
   max-width: 32rem;
   margin-right: 30px;
+
+  @media screen and (max-width: 768px) {
+    display: none;
+  }
 `
 
 export const NavItem = styled.div`
@@ -63,4 +68,15 @@ export const NavLinks = styled(LinkS)`
   height: 100%;
   cursor: pointer;
   font-size: 18px;
+`
+
+export const MobileWrapper = styled.div`
+  color: #fff;
+  width: 32px;
+  height: 32px;
+  margin-right: 30px;
+
+  @media screen and (min-width: 768px) {
+    display: none;
+  }
 `
