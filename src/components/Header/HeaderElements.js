@@ -2,8 +2,8 @@ import styled from "styled-components";
 import {Link as LinkS} from 'react-scroll';
 
 export const HeaderContainer = styled.header`
-  position: relative;
   background: #000;
+  z-index: 4;
 `
 
 export const HeaderWrapper = styled.div`

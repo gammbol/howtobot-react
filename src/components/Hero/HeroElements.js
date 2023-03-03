@@ -4,7 +4,7 @@ export const HeroContainer = styled.div`
   background: #0c0c0c;
   z-index: 1;
   position: relative;
-  height: 800px;
+  height: calc(100vh - 96px);
 
   :before {
     content: '';
