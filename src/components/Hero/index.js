@@ -8,7 +8,10 @@ const Hero = () => {
 	return (
 		<HeroContainer>
 			<HeroBg>
-				<VideoBg autoPlay loop muted preload playsInline src={Video} type="video/mp4"></VideoBg>
+				<VideoBg className={'video'} autoPlay loop muted preload playsInline src={Video} type="video/mp4"></VideoBg>
+				{setTimeout(function () {
+					document.querySelector('.video').play()
+				})}
 			</HeroBg>
 			<HeroContentContainer>
 				<ContentWrapper>
