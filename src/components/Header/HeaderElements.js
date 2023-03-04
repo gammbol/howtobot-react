@@ -71,12 +71,13 @@ export const NavLinks = styled(LinkS)`
 `
 
 export const MobileWrapper = styled.div`
+  display: none;
   color: #fff;
   width: 32px;
   height: 32px;
   margin-right: 30px;
 
-  @media screen and (min-width: 768px) {
-    display: none;
+  @media screen and (max-width: 768px) {
+    display: block;
   }
 `
