@@ -16,7 +16,6 @@ export const CardsContainer = styled.div`
   display: flex;
   justify-content: space-around;
   align-items: center;
-  flex-wrap: wrap;
   
   @media screen and (max-width: 768px) {
     flex-direction: column;
