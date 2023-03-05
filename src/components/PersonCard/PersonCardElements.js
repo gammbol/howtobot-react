@@ -12,31 +12,31 @@ export const CardContainer = styled.div`
   border: 2px solid #d4a1f9;
   border-radius: 15px;
   padding: 1rem;
-  animation: shadowMoveBackwards .3s ;
+  animation: shadowMoveBackwards .3s;
   transition: .3s all ease-in-out;
-  
-  
+
+
   @keyframes shadowMove {
     from {
       transform: translate(0);
     }
-    
+
     to {
       transform: translate(-10px, -5px);
     }
   }
-  
+
   &:hover {
     animation: shadowMove .3s forwards;
-    
+
     box-shadow: 15px 10px 15px #01bf71;
   }
-  
+
   @keyframes shadowMoveBackwards {
     from {
       transform: translate(-10px, -5px);
     }
-    
+
     to {
       transform: translate(0);
     }
@@ -54,7 +54,7 @@ export const PersonImage = styled.img`
   border-radius: 100%;
   -o-object-fit: cover;
   object-fit: cover;
-  
+
 `
 
 export const ContentContainer = styled.div`
@@ -67,12 +67,7 @@ export const ContentContainer = styled.div`
 
 export const PersonName = styled.h2`
   font-size: 24px;
-  background: linear-gradient(180deg, #FE0000 16.66%,
-  #FD8C00 16.66%, 33.32%,
-  #FFE500 33.32%, 49.98%,
-  #119F0B 49.98%, 66.64%,
-  #0644B3 66.64%, 83.3%,
-  #C22EDC 83.3%);
+  color: #fff;
 `
 
 export const PersonOccupation = styled.p`
