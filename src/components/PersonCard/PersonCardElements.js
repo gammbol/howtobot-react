@@ -13,6 +13,7 @@ export const CardContainer = styled.div`
   border-radius: 15px;
   padding: 1rem;
   animation: shadowMoveBackwards .3s ;
+  transition: .3s all ease-in-out;
   
   
   @keyframes shadowMove {
