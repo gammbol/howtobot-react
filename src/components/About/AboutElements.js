@@ -4,7 +4,7 @@ export const AboutContainer = styled.div`
   height: 100vh;
   
   @media screen and (max-width: 768px) {
-    height: 150vh;
+    height: 200vh;
   }
 `
 
