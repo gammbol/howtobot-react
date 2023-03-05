@@ -67,7 +67,13 @@ export const ContentContainer = styled.div`
 
 export const PersonName = styled.h2`
   font-size: 24px;
-  color: #fff;
+  background: ${({me}) => (me ? "linear-gradient(180deg, #FE0000 16.66%,\n" +
+          "\t\t#FD8C00 16.66%, 33.32%,\n" +
+          "\t\t#FFE500 33.32%, 49.98%,\n" +
+          "\t\t#119F0B 49.98%, 66.64%,\n" +
+          "\t\t#0644B3 66.64%, 83.3%,\n" +
+          "\t\t#C22EDC 83.3%);" : '')};
+  color: ${({me}) => (me ? "#000" : "#fff")};
 `
 
 export const PersonOccupation = styled.p`

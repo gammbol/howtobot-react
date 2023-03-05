@@ -7,7 +7,7 @@ const PersonCard = (props) => (
       <PersonImage src={props.src} />
     </ImgWrapper>
     <ContentContainer>
-      <PersonName>{props.name}</PersonName>
+      <PersonName me={props.me}>{props.name}</PersonName>
       <PersonOccupation>{props.occupation}</PersonOccupation>
     </ContentContainer>
   </CardContainer>
