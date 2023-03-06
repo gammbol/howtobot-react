@@ -2,13 +2,16 @@ import styled from "styled-components";
 
 export const AboutContainer = styled.div`
   height: 100vh;
-  
+  display: flex;
+  flex-direction: column;
+
   @media screen and (max-width: 768px) {
-    height: 200vh;
+    height: 180vh;
   }
 `
 
 export const CardsContainer = styled.div`
+  flex-grow: 1;
   width: 100%;
   height: 100%;
   margin: 0 auto;
@@ -16,10 +19,17 @@ export const CardsContainer = styled.div`
   display: flex;
   justify-content: space-around;
   align-items: center;
-  
+
   @media screen and (max-width: 768px) {
     flex-direction: column;
     justify-content: center;
     gap: 2rem;
   }
+`
+
+export const AboutHeading = styled.h1`
+  text-align: center;
+  font-size: 48px;
+  color: #fff;
+  margin-top: 60px;
 `
