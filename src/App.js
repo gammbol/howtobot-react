@@ -7,7 +7,7 @@ import React from "react";
 function App() {
 	return (
 		<div
-			className="h-screen overflow-y-scroll oveerflow-x-hidden z-0 scrollbar-thin scrollbar-track-gray-400/20 scrollbar-thumb-[#d4a1f9]/80">
+			className="h-screen overflow-y-scroll overflow-x-hidden z-0 scrollbar-thin scrollbar-track-gray-400/20 scrollbar-thumb-[#d4a1f9]/80">
 			<Header/>
 			<Hero/>
 			<About/>
