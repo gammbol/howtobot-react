@@ -32,4 +32,8 @@ export const AboutHeading = styled.h1`
   font-size: 48px;
   color: #fff;
   margin-top: 60px;
+
+  @media screen and (max-width: 768px) {
+    font-size: 24px;
+  }
 `

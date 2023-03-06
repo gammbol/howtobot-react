@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const HeroContainer = styled.div`
   background: #0c0c0c;
-  z-index: 1;
+  z-index: 0;
   position: relative;
   height: calc(100vh - 96px);
 
