@@ -6,7 +6,7 @@ export const AboutContainer = styled.div`
   flex-direction: column;
 
   @media screen and (max-width: 768px) {
-    height: 180vh;
+    height: 170vh;
   }
 `
 
@@ -35,5 +35,6 @@ export const AboutHeading = styled.h1`
 
   @media screen and (max-width: 768px) {
     font-size: 24px;
+    margin-top: 30px;
   }
 `
