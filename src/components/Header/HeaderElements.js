@@ -93,6 +93,7 @@ export const MobileMenuContainer = styled.div`
   z-index: 4;
   display: flex;
   flex-direction: column;
+  display: ${({displayed}) => (displayed === 'visible' ? 'block' : `${setTimeout(() => 'none', 900)}`)};
   opacity: ${({displayed}) => (displayed === 'visible' ? '1' : '0')};
   animation: ${({displayed}) => (displayed === 'visible' ? 'Appearance .9s forwards' : 'Disappearance .9s forwards')};
   transition: .9s all ease-in-out;
