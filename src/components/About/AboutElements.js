@@ -6,7 +6,7 @@ export const AboutContainer = styled.div`
   flex-direction: column;
 
   @media screen and (max-width: 768px) {
-    height: 180vh;
+    height: 200vh;
   }
 `
 
