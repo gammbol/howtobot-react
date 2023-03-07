@@ -3,7 +3,6 @@ import Header from "./components/Header";
 import Hero from "./components/Hero";
 import About from "./components/About";
 import React from "react";
-import Lessons from "./components/Lessons";
 
 function App() {
 	return (
@@ -11,7 +10,6 @@ function App() {
 			<Header/>
 			<Hero/>
 			<About/>
-			<Lessons/>
 		</>
 	);
 }
