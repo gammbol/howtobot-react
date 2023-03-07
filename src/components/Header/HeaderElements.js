@@ -83,7 +83,7 @@ export const MobileWrapper = styled.div`
 `
 
 export const MobileMenuContainer = styled.div`
-  position: absolute;
+  position: fixed;
   top: 0;
   left: 0;
   background: #000;
