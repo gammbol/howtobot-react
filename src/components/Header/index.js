@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import React from 'react';
 import Reu from '../../images/rea-logo.svg'
 import {
 	HeaderContainer,
@@ -17,10 +17,7 @@ import {GiHamburgerMenu} from "react-icons/gi";
 import {AiOutlineClose} from "react-icons/ai";
 
 function Header(props) {
-	const [state, setState] = useState();
-	const MobileMenuListener = () => {
-		setState(!state);
-	}
+	const {state, listener} = props;
 
 	return (
 		<HeaderContainer>
@@ -28,12 +25,12 @@ function Header(props) {
 				<LogoContainer>
 					<Logo src={Reu}/>
 				</LogoContainer>
-				<MobileWrapper onClick={MobileMenuListener}>
+				<MobileWrapper onClick={listener}>
 					<GiHamburgerMenu style={{width: '100%', height: '100%'}}/>
 				</MobileWrapper>
 				<NavMenu>
 					<NavItem>
-						<NavLinks to="#">О нас</NavLinks>
+						<NavLinks to="about">О нас</NavLinks>
 					</NavItem>
 					<NavItem>
 						<NavLinks to="#">О проекте</NavLinks>
@@ -48,20 +45,20 @@ function Header(props) {
 			</HeaderWrapper>
 			<MobileMenuContainer displayed={state}>
 				<MobileWrapper style={{marginLeft: 'auto'}}>
-					<AiOutlineClose style={{width: '35px', height: '35px', zIndex: '5'}} onClick={MobileMenuListener}/>
+					<AiOutlineClose style={{width: '35px', height: '35px', zIndex: '5'}} onClick={listener}/>
 				</MobileWrapper>
 				<MobileNavMenu>
 					<MobileNavItem>
-						<NavLinks to="#">О нас</NavLinks>
+						<NavLinks to="#about">О нас</NavLinks>
 					</MobileNavItem>
 					<MobileNavItem>
-						<NavLinks to="#">О нас</NavLinks>
+						<NavLinks to="#">О проекте</NavLinks>
 					</MobileNavItem>
 					<MobileNavItem>
-						<NavLinks to="#">О нас</NavLinks>
+						<NavLinks to="#">Уроки</NavLinks>
 					</MobileNavItem>
 					<MobileNavItem>
-						<NavLinks to="#">О нас</NavLinks>
+						<NavLinks to="#">Контакты</NavLinks>
 					</MobileNavItem>
 				</MobileNavMenu>
 			</MobileMenuContainer>

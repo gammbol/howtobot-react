@@ -93,13 +93,13 @@ export const MobileMenuContainer = styled.div`
   z-index: 4;
   display: flex;
   flex-direction: column;
-  opacity: ${({displayed}) => (displayed ? '1' : '0')};
-  animation: ${({displayed}) => (displayed ? 'Appearance .9s forwards' : 'Disappearance .9s forwards')};
+  opacity: ${({displayed}) => (displayed === 'visible' ? '1' : '0')};
+  animation: ${({displayed}) => (displayed === 'visible' ? 'Appearance .9s forwards' : 'Disappearance .9s forwards')};
   transition: .9s all ease-in-out;
 
   @keyframes Appearance {
     from {
-      transform: translate(-100vh);
+      transform: translate(0, -100vh);
     }
     to {
       transform: translate(0);
@@ -107,7 +107,7 @@ export const MobileMenuContainer = styled.div`
   }
   @keyframes Disappearance {
     to {
-      transform: translate(-100vh);
+      transform: translate(0, -100vh);
     }
   }
 `
