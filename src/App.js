@@ -3,6 +3,7 @@ import Header from "./components/Header";
 import Hero from "./components/Hero";
 import About from "./components/About";
 import React, {useState} from "react";
+import AboutProject from "./components/AboutProject";
 
 function App() {
 	const [state, setState] = useState('hidden');
@@ -20,6 +21,7 @@ function App() {
 			<Header state={state} listener={MobileMenuListener}/>
 			<Hero/>
 			<About id='about'/>
+			<AboutProject />
 		</>
 	);
 }

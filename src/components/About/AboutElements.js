@@ -4,9 +4,11 @@ export const AboutContainer = styled.div`
   height: 100vh;
   display: flex;
   flex-direction: column;
+  margin-top: 60px;
 
   @media screen and (max-width: 768px) {
-    height: 200vh;
+    margin-top: 30px;
+    height: auto;
   }
 `
 
@@ -21,6 +23,7 @@ export const CardsContainer = styled.div`
   align-items: center;
 
   @media screen and (max-width: 768px) {
+    margin-top: 20px;
     flex-direction: column;
     justify-content: center;
     gap: 2rem;
@@ -31,10 +34,8 @@ export const AboutHeading = styled.h1`
   text-align: center;
   font-size: 48px;
   color: #fff;
-  margin-top: 60px;
 
   @media screen and (max-width: 768px) {
     font-size: 24px;
-    margin-top: 30px;
   }
 `
