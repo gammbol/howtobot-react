@@ -66,6 +66,15 @@ export const NavLinks = styled(LinkS)`
   text-decoration: none;
   height: 100%;
   cursor: pointer;
+  font-size: 18px;
+`;
+
+export const MobileNavLinks = styled(LinkS)`
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  height: 100%;
+  cursor: pointer;
   font-size: 24px;
 `;
 

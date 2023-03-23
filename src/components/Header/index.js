@@ -7,6 +7,7 @@ import {
   LogoContainer,
   MobileMenuContainer,
   MobileNavItem,
+  MobileNavLinks,
   MobileNavMenu,
   MobileWrapper,
   NavItem,
@@ -76,7 +77,7 @@ function Header(props) {
         </MobileWrapper>
         <MobileNavMenu>
           <MobileNavItem>
-            <NavLinks
+            <MobileNavLinks
               to="about"
               spy={true}
               smooth={true}
@@ -86,10 +87,10 @@ function Header(props) {
               onClick={listener}
             >
               О нас
-            </NavLinks>
+            </MobileNavLinks>
           </MobileNavItem>
           <MobileNavItem>
-            <NavLinks
+            <MobileNavLinks
               to="aboutProject"
               spy={true}
               smooth={true}
@@ -99,10 +100,10 @@ function Header(props) {
               onClick={listener}
             >
               О проекте
-            </NavLinks>
+            </MobileNavLinks>
           </MobileNavItem>
           <MobileNavItem>
-            <NavLinks
+            <MobileNavLinks
               to="lessons"
               spy={true}
               smooth={true}
@@ -112,7 +113,7 @@ function Header(props) {
               onClick={listener}
             >
               Уроки
-            </NavLinks>
+            </MobileNavLinks>
           </MobileNavItem>
         </MobileNavMenu>
       </MobileMenuContainer>
