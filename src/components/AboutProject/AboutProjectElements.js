@@ -22,6 +22,9 @@ export const AboutProjectHeading = styled.div`
   text-align: center;
   font-size: 48px;
   color: #fff;
+  width: 100%;
+  overflow: hidden;
+  background-color: #422168;
 
   @media screen and (max-width: 768px) {
     //font-size: 24px;

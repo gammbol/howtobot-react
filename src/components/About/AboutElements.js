@@ -34,6 +34,7 @@ export const AboutHeading = styled.h1`
   text-align: center;
   font-size: 48px;
   color: #fff;
+  background-color: #422168;
 
   @media screen and (max-width: 768px) {
     font-size: 36px;

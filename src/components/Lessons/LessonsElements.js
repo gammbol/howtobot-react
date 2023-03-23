@@ -4,7 +4,7 @@ export const KeenSlider = styled.section`
   height: 700px;
   margin-top: 40px;
 
-  @media screen and (max-width: 768px) {
+  @media screen and(max-width: 768px) {
     height: auto;
     margin-bottom: 50px;
   }
@@ -13,14 +13,13 @@ export const KeenSlider = styled.section`
 export const KeenSliderContainer = styled.div`
   max-width: 1300px;
   margin: 0 auto;
-
-  height: 100%;
 `;
 
 export const KeenSliderHeading = styled.h1`
   font-size: 48px;
   color: #fff;
   text-align: center;
+  background-color: #422168;
 `;
 
 export const SliderContainer = styled.div`

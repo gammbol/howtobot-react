@@ -38,8 +38,8 @@ export default () => {
 
   return (
     <KeenSlider id="lessons">
+      <KeenSliderHeading>Уроки</KeenSliderHeading>
       <KeenSliderContainer>
-        <KeenSliderHeading>Уроки</KeenSliderHeading>
         <SliderContainer>
           <BtnWrapper onClick={prevSlide}>
             <BtnPrev src={LeftArrow} />

@@ -1,5 +1,5 @@
 import React from "react";
-import Img from "../../images/AboutProject.svg";
+import Img from "../../images/AboutProject.png";
 import {
   AboutProjectContainer,
   AboutProjectContentContainer,
@@ -14,8 +14,8 @@ import {
 function AboutProject(props) {
   return (
     <AboutProjectSection id="aboutProject">
+      <AboutProjectHeading>О проекте</AboutProjectHeading>
       <AboutProjectContainer>
-        <AboutProjectHeading>О проекте</AboutProjectHeading>
         <AboutProjectContentContainer>
           <AboutProjectDescWrapper>
             <AboutProjectDesc>
