@@ -1,66 +1,91 @@
 import styled from "styled-components";
 
-export const LessonsContainer = styled.div`
-  height: 100vh;
-  padding: 30px;
-  width: 100%;
-  max-width: 1100px;
-  margin: 0 auto;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+export const KeenSlider = styled.section`
+  height: 700px;
+  margin-top: 40px;
 
-`
-
-export const LessonsPanel = styled.div`
-  width: 100%;
-  height: 100%;
-  border-radius: 20px;
-  //box-shadow: 10px 10px 10px lightgray;
-  border: 2px solid white;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  -o-object-fit: cover;
-  object-fit: cover;
-`
-
-export const LessonsPreviewContainer = styled.div`
-  width: 40%;
-  height: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-`
-
-export const LessonsPreviewWrapper = styled.div`
-  width: 60px;
-  height: 40px;
-`
-
-export const Preview = styled.img`
-  width: 100%;
-  height: 100%;
-`
-
-export const LessonsList = styled.div`
-  height: 100%;
-  flex-grow: 1;
-  border-left: 1px solid lightgray;
-  overflow: hidden;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-`
-
-export const LessonItem = styled.div`
-  border-bottom: 1px solid white;
-  padding: 15px 0;
-  z-index: 0;
-
-  &:hover {
-    background: white;
+  @media screen and (max-width: 768px) {
+    height: auto;
+    margin-bottom: 50px;
   }
-`
+`;
 
+export const KeenSliderContainer = styled.div`
+  max-width: 1300px;
+  margin: 0 auto;
+
+  height: 100%;
+`;
+
+export const KeenSliderHeading = styled.h1`
+  font-size: 48px;
+  color: #fff;
+  text-align: center;
+`;
+
+export const SliderContainer = styled.div`
+  margin-top: 150px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 0 5px;
+
+  @media screen and (max-width: 768px) {
+    margin-top: 50px;
+  }
+`;
+
+export const BtnWrapper = styled.div`
+  width: 60px;
+  height: 60px;
+  margin: auto;
+  flex-shrink: 0;
+
+  border-radius: 100px;
+  background: #fff;
+  cursor: pointer;
+
+  position: relative;
+
+  @media screen and (max-width: 768px) {
+    width: 40px;
+    height: 40px;
+  }
+`;
+
+export const BtnPrev = styled.img`
+  width: 50%;
+  height: 50%;
+
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+`;
+
+export const BtnNext = styled.img`
+  width: 50%;
+  height: 50%;
+
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+`;
+
+export const SliderWrapper = styled.div`
+  //flex-grow: 1;
+  overflow: hidden;
+  flex-basis: 1100px;
+`;
+
+export const SlideWrapper = styled.div`
+  max-width: 600px;
+  height: 315px;
+
+  margin: 0 auto;
+`;

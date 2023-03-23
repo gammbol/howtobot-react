@@ -10,7 +10,7 @@ export const AboutContainer = styled.div`
     margin-top: 30px;
     height: auto;
   }
-`
+`;
 
 export const CardsContainer = styled.div`
   flex-grow: 1;
@@ -23,12 +23,12 @@ export const CardsContainer = styled.div`
   align-items: center;
 
   @media screen and (max-width: 768px) {
-    margin-top: 20px;
+    margin-top: 50px;
     flex-direction: column;
     justify-content: center;
     gap: 2rem;
   }
-`
+`;
 
 export const AboutHeading = styled.h1`
   text-align: center;
@@ -36,6 +36,6 @@ export const AboutHeading = styled.h1`
   color: #fff;
 
   @media screen and (max-width: 768px) {
-    font-size: 24px;
+    font-size: 36px;
   }
-`
+`;
