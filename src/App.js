@@ -3,7 +3,7 @@ import Header from "./components/Header";
 import Hero from "./components/Hero";
 import About from "./components/About";
 import React, { useState } from "react";
-import AboutProject from "./components/AboutProject";
+import AboutProject from "./components/AboutSmth";
 import KeenSlider from "./components/Lessons";
 
 function App() {
@@ -22,8 +22,9 @@ function App() {
       <Header state={state} listener={MobileMenuListener} />
       <Hero />
       <About />
-      <AboutProject name="aboutProject" id="aboutProject" />
-      <KeenSlider name="lessons" id="lessons" />
+      <AboutProject data="project" direction="straight" />
+      <AboutProject data="tg" direction="reverse" />
+      <KeenSlider />
     </>
   );
 }

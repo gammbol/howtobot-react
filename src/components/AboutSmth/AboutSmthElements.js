@@ -41,6 +41,9 @@ export const AboutProjectContentContainer = styled.div`
   gap: 100px;
   flex-grow: 1;
 
+  flex-direction: ${({ direction }) =>
+    direction === "reverse" ? "row-reverse" : "row"};
+
   @media screen and (max-width: 768px) {
     margin-top: 30px;
     gap: 50px;
